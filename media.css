@@ -207,25 +207,26 @@
         /* font-family: Georgia, 'Times New Roman', Times, serif; */
         /* color: black; */
     /* }  */
-    /*.about-img img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-        border-radius: 8px;
-        /* padding-bottom: 20%; Remove or adjust this line 
-    }*/
+
+    .about {
+        flex-direction: column; /* Stack items on smaller screens*/
+        text-align: center;
+        align-items: center; 
+    }
+
+   
     
     .about-text h2{
         font-size:60px;
-        color:#0ef;
+        color:white;
     }
     .about-text h2 span{
         color:#0ef;
     }
     .about-text h4{
         font-size:29px;
-        font-weight:600;
-        color:rgb(242, 248, 248);
+        font-weight:500;
+        color:rgb(226, 183, 176);
         /* line-height:1.7; 
         margin:45px 39 39px;*/
     }
@@ -249,6 +250,7 @@
         font-size:55px;
         padding-bottom:28px;
         align-items: center;
+        /* margin-left: 50%; */
     }
     .sub-title span{
         color:#0ef;
@@ -275,8 +277,8 @@
         border-right:10px;
         border-radius:20px;
         transition:background 0.5s,transform 0.5s;
-        box-shadow: 1px 1px 20px rgb(77, 133, 134),
-        1px 1px 40px rgb(74, 130, 133);
+        box-shadow: 1px 1px 20px cyan,
+        1px 1px 40px cyan;
     }
     .services-list div i{
         font-size:50px;
@@ -795,6 +797,9 @@
         gap:3rem;
         padding-left: 30px;
         margin-top: 130px;
+        /* justify-content: space-around; */
+
+        /* justify-content: space-between; */
     }
     .contact-text h2{
         font-size:90px;

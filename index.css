@@ -1,3 +1,4 @@
+@media only screen and (min-width: 900px){
 * {
     margin: 0;
     padding: 0;
@@ -288,6 +289,9 @@ body {
     line-height:1;
     /* margin-top:45rem; */
 } 
+.about-img img {
+    display: none;
+}
 
 .services{
     /* position: relative;
@@ -1224,4 +1228,4 @@ section{
     z-index: 99;
 }
 
-
+}
