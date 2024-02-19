@@ -253,7 +253,7 @@
         grid-gap:40px;
         float: left;
         margin-top:50px;
-        margin-left: 40%;
+        margin-left: 50%;
         /* margin-bottom: 90px; */
     }
     .services-list div{
@@ -700,7 +700,7 @@
         grid-template-columns: repeat(auto-fit,minmax(359px,auto));
         width:100%;
         align-items: center;
-        margin-left: 40%;
+        margin-left: 50%;
 
     }
     
