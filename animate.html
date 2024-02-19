@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>Your Portfolio</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+#about-me {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+    </style>
+</head>
+<body>
+    <section id="about-me" class="particles-js">
+        <div class="content">
+            <h1>Your Name</h1>
+            <p>Enthusiastic AI student currently in the 2nd year of the Bachelor's in Computer Science program at Chitkara University. I am passionate about exploring the frontiers of artificial intelligence and its applications. With a CGPA of 9.5, I am dedicated to academic excellence and continuous learning.</p>
+        </div>
+    </section>
+
+    <!-- <script src="your-particles.js"></script> -->
+    <script>
+        particlesJS('about-me', {
+    particles: {
+        number: { value: 50 },
+        color: { value: '#3498db' },
+        shape: { type: 'circle' },
+        opacity: { value: 0.5 },
+        size: { value: 3 },
+        line_linked: { enable: false },
+        move: { enable: true, speed: 1 }
+    },
+    interactivity: { events: { onhover: { enable: true, mode: 'repulse' } } }
+});
+
+    </script>
+</body>
+</html>
