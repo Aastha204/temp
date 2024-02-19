@@ -260,7 +260,7 @@
         grid-gap:40px;
         float: left;
         margin-top:50px;
-        margin-left: 50%;
+        /* margin-left: 50%; */
         /* margin-bottom: 90px; */
     }
     .services-list div{
@@ -699,6 +699,12 @@
         line-height: 1;
         text-align: center;
     }
+    .sub-title2{
+        color:white;
+    }
+    .sub-title2 span1{
+        color:cyan;
+    }
     .main-text h2 span{
         color:#0ef;
     }
@@ -706,8 +712,9 @@
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(359px,auto));
         width:100%;
+        /* float: left; */
         align-items: center;
-        margin-left: 50%;
+        /* margin-left: 50%; */
 
     }
     
@@ -840,6 +847,12 @@
         opacity:0;
         animation: slideLeft 1s ease forwards;
         animation-delay:calc(.2s*var(--i));
+    }
+    .subtitle3{
+        color:rgb(243, 247, 243);
+    }
+    .subtitle3 span3{
+        color:cyan;
     }
     .contact-icons i:hover{
         background:#0ef;

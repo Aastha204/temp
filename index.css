@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color:rgb(10, 53, 10);
 }
 
 .logo {
@@ -38,10 +39,13 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-family: 'Pacifico';
+    /* font-family: 'Pacifico'; */
     cursor:default;
     opacity:0;
     animation:slideRight 1s ease forwards;
+    font-size: 34px;
+    font-family:'Monotype Corsiva'; 
+    color:rgb(166, 248, 166)
 }
 /* .image-container {
     position: relative;
@@ -435,6 +439,15 @@ section{
     display:flex;
     flex-wrap:wrap;
 } 
+
+.sub-title{
+    color:rgb(31, 71, 7);
+    margin-right: 42px;
+}
+.sub-title span{
+    color:rgb(59, 184, 9)
+}
+
 .container1{
     width:48%;
     /* margin-right: %; */
@@ -455,6 +468,9 @@ section{
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
+    color:black;
+    margin-right: 80px;
+    /* color:black; margin-left: 50px; */
 }
 .bar{
     font-size: 23px;
@@ -766,6 +782,12 @@ section{
     /* padding-top: 140px; */
 }
 
+.sub-title2{
+    color:rgb(2, 36, 36);
+}
+.sub-title2 span1{
+    color:rgb(37, 105, 105);
+}
 .main-text{
     padding-top: 100px;
     /* margin-top:200px; */
@@ -867,7 +889,12 @@ section{
     padding-top: 40px;
     /* margin-top:200px; */
 }
-
+.subtitle3{
+    color:rgb(18, 131, 18);
+}
+.subtitle3 span3{
+    color:rgb(2, 32, 2);
+}
 .contact{
     display:grid;
     grid-template-columns:repeat(2,1fr);
