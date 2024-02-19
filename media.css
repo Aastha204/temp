@@ -253,6 +253,7 @@
         grid-gap:40px;
         float: left;
         margin-top:50px;
+        margin-left: 40%;
         /* margin-bottom: 90px; */
     }
     .services-list div{
@@ -697,6 +698,10 @@
     .portfolio-content{
         display:grid;
         grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+        width:100%;
+        align-items: center;
+        margin-left: 40%;
+
     }
     
     .projectIcon{
@@ -841,7 +846,7 @@
         border:none;
         outline:none;
         width:90%;
-        padding:18px;
+        padding:13px;
         background:#555557;
         color:#000;
         font-size:1rem;
@@ -852,6 +857,7 @@
     .contact-form textarea{
         resize:none;
         height:220px;
+        width:auto;
     }
     .contact-form form.send{
         display:inline-block;
@@ -878,6 +884,8 @@
     .last-text p{
         width:100%;
         text-align:center;
+        justify-content: center;
+        margin-left: 40%;
         padding:25px 0;
         background: rgb(7,85,91);
         font-weight:300;
